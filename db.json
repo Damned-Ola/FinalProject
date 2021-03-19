@@ -1,0 +1,235 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Nazerke",
+      "gender": "Female",
+      "email": "suppernazerke@gmail.com",
+      "password": "12345",
+      "favourites": [
+        {
+          "id": "1",
+          "title": "ARCTIS PRO WIRELESS BLACK",
+          "brand": "Steelseeries",
+          "price": "349,99$",
+          "img": "https://media.steelseriescdn.com/thumbs/filer_public/aa/1b/aa1b5f10-ed38-4553-a1c0-7adace4100db/purchase-gallery-apro-wireless-hero.png__1920x1080_q100_crop-fit_optimize_subsampling-2.png"
+        },
+        {
+          "id": "b",
+          "title": "APEX 5",
+          "brand": "Steelseries",
+          "price": "119,99$",
+          "img": "https://media.steelseriescdn.com/thumbs/filer_public/88/53/8853fdae-9f68-4d9b-ac30-853f5a79c59c/buyimg_apex5_006.png__1920x1080_q100_crop-fit_optimize_subsampling-2.png"
+        }
+      ]
+    },
+    {
+      "name": "Алдияр Каждаров",
+      "gender": "Male",
+      "email": "kazhdarov@gmail.com",
+      "password": "nazer",
+      "id": "CpDu__z",
+      "favourites": [
+        {
+          "id": "1",
+          "title": "ARCTIS PRO WIRELESS BLACK",
+          "brand": "Steelseeries",
+          "price": "349,99$",
+          "img": "https://media.steelseriescdn.com/thumbs/filer_public/aa/1b/aa1b5f10-ed38-4553-a1c0-7adace4100db/purchase-gallery-apro-wireless-hero.png__1920x1080_q100_crop-fit_optimize_subsampling-2.png"
+        },
+        {
+          "id": "b",
+          "title": "APEX 5",
+          "brand": "Steelseries",
+          "price": "119,99$",
+          "img": "https://media.steelseriescdn.com/thumbs/filer_public/88/53/8853fdae-9f68-4d9b-ac30-853f5a79c59c/buyimg_apex5_006.png__1920x1080_q100_crop-fit_optimize_subsampling-2.png"
+        }
+      ]
+    },
+    {
+      "name": "Kaban",
+      "gender": "Other",
+      "email": "kaban@gmail.com",
+      "password": "12345",
+      "id": "XvwuB-5",
+      "favourites": [
+        {
+          "id": "1",
+          "title": "ARCTIS PRO WIRELESS BLACK",
+          "brand": "Steelseeries",
+          "price": "349,99$",
+          "img": "https://media.steelseriescdn.com/thumbs/filer_public/aa/1b/aa1b5f10-ed38-4553-a1c0-7adace4100db/purchase-gallery-apro-wireless-hero.png__1920x1080_q100_crop-fit_optimize_subsampling-2.png"
+        },
+        {
+          "id": "b",
+          "title": "APEX 5",
+          "brand": "Steelseries",
+          "price": "119,99$",
+          "img": "https://media.steelseriescdn.com/thumbs/filer_public/88/53/8853fdae-9f68-4d9b-ac30-853f5a79c59c/buyimg_apex5_006.png__1920x1080_q100_crop-fit_optimize_subsampling-2.png"
+        }
+      ]
+    },
+    {
+      "name": "Bekzhan",
+      "gender": "Other",
+      "email": "olya.maksimovna@bk.ru",
+      "password": "qwerty",
+      "id": "09MFYqZ",
+      "favourites": [
+        {
+          "id": "1",
+          "title": "ARCTIS PRO WIRELESS BLACK",
+          "brand": "Steelseeries",
+          "price": "349,99$",
+          "img": "https://media.steelseriescdn.com/thumbs/filer_public/aa/1b/aa1b5f10-ed38-4553-a1c0-7adace4100db/purchase-gallery-apro-wireless-hero.png__1920x1080_q100_crop-fit_optimize_subsampling-2.png"
+        },
+        {
+          "id": "b",
+          "title": "APEX 5",
+          "brand": "Steelseries",
+          "price": "119,99$",
+          "img": "https://media.steelseriescdn.com/thumbs/filer_public/88/53/8853fdae-9f68-4d9b-ac30-853f5a79c59c/buyimg_apex5_006.png__1920x1080_q100_crop-fit_optimize_subsampling-2.png"
+        }
+      ]
+    },
+    {
+      "name": "Nazerke Zhylkybay",
+      "gender": "Female",
+      "email": "asemman@gmail.com",
+      "password": "monsterhaig",
+      "id": "YQ01AKJ",
+      "favourites": [
+        {
+          "id": "1",
+          "title": "ARCTIS PRO WIRELESS BLACK",
+          "brand": "Steelseeries",
+          "price": "349,99$",
+          "img": "https://media.steelseriescdn.com/thumbs/filer_public/aa/1b/aa1b5f10-ed38-4553-a1c0-7adace4100db/purchase-gallery-apro-wireless-hero.png__1920x1080_q100_crop-fit_optimize_subsampling-2.png"
+        },
+        {
+          "id": "b",
+          "title": "APEX 5",
+          "brand": "Steelseries",
+          "price": "119,99$",
+          "img": "https://media.steelseriescdn.com/thumbs/filer_public/88/53/8853fdae-9f68-4d9b-ac30-853f5a79c59c/buyimg_apex5_006.png__1920x1080_q100_crop-fit_optimize_subsampling-2.png"
+        }
+      ]
+    },
+    {
+      "name": "Olzhas",
+      "gender": "Female",
+      "email": "olzhasbaisakov@gmail.com",
+      "password": "12345678",
+      "id": "lWStpez"
+    },
+    {
+      "name": "ThomasShelby",
+      "gender": "Male",
+      "email": "peakyblinders1@gmail.com",
+      "password": "12345",
+      "id": "aO97pOz"
+    },
+    {
+      "name": "Aldik",
+      "gender": "Female",
+      "email": "ASdasd@Asdsd",
+      "password": "123",
+      "id": "adaF4Cs"
+    },
+    {
+      "name": "asd",
+      "gender": "Female",
+      "email": "asdasd@asd",
+      "password": "asd",
+      "id": "xAvhU5T"
+    },
+    {
+      "name": "Nurzhan",
+      "gender": "Male",
+      "email": "Nurzhan@gmail.com",
+      "password": "123456",
+      "id": "eUGPiX-"
+    },
+    {
+      "name": "Aldiyar",
+      "gender": "Male",
+      "email": "aldiyar@gmail.com",
+      "password": "12345",
+      "id": "Kts3lcI"
+    }
+  ],
+  "headphones": [
+    {
+      "id": "1",
+      "title": "ARCTIS PRO WIRELESS BLACK",
+      "brand": "Steelseeries",
+      "price": "349,99$",
+      "img": "https://media.steelseriescdn.com/thumbs/filer_public/75/26/7526b52c-d053-4de9-864a-e738cd734162/a9_buyimg_02.png__1920x1080_q100_crop-fit_optimize_subsampling-2.png"
+    },
+    {
+      "id": "2",
+      "title": "ARCTIS 7 BLACK",
+      "brand": "Steelseeries",
+      "price": "179,99$",
+      "img": "https://media.steelseriescdn.com/thumbs/filer_public/75/26/7526b52c-d053-4de9-864a-e738cd734162/a9_buyimg_02.png__1920x1080_q100_crop-fit_optimize_subsampling-2.png"
+    },
+    {
+      "id": "3",
+      "title": "Cloud Revolver + 7.1",
+      "brand": "HyperX",
+      "price": "119,99$",
+      "img": "https://media.kingston.com/hyperx/product/hx-product-headset-revolver-71-1-zm-lg.jpg"
+    },
+    {
+      "id": "4",
+      "title": "M620T",
+      "brand": "Bloody",
+      "price": "99,99$",
+      "img": "https://img.bloody.com/ru/uploadfile/image/20180823/20180823162919_92924.jpg"
+    },
+    {
+      "id": "5",
+      "title": "J437",
+      "brand": "Bloody",
+      "price": "89,99$",
+      "img": "https://img.bloody.com/ru/uploadfile/image/20200214/20200214140520_12727.jpg"
+    }
+  ],
+  "keyboards": [
+    {
+      "id": "a",
+      "title": "APEX PRO",
+      "brand": "Steelseeries",
+      "price": "209,99$",
+      "img": "https://media.steelseriescdn.com/thumbs/filer_public/df/a8/dfa81646-f4af-4a40-8c01-fec13488d1fc/buyimg_apexpro_006_us.png__1920x1080_q100_crop-fit_optimize_subsampling-2.png"
+    },
+    {
+      "id": "b",
+      "title": "APEX 5",
+      "brand": "Steelseries",
+      "price": "119,99$",
+      "img": "https://media.steelseriescdn.com/thumbs/filer_public/88/53/8853fdae-9f68-4d9b-ac30-853f5a79c59c/buyimg_apex5_006.png__1920x1080_q100_crop-fit_optimize_subsampling-2.png"
+    },
+    {
+      "id": "c",
+      "title": "Alloy Elite 2",
+      "brand": "HyperX",
+      "price": "111,99$",
+      "img": "https://images-na.ssl-images-amazon.com/images/I/81s21En90PL._AC_SL1500_.jpg"
+    },
+    {
+      "id": "d",
+      "title": "BlackWidow V3",
+      "brand": "Razer",
+      "price": "139,99$",
+      "img": "https://assets3.razerzone.com/RPwOEpyPnZUq61XwUqu8TYlpc9M=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fha9%2Fh93%2F9089910898718%2Frazer-blackwidow-v3-1500x1000_0.jpg"
+    },
+    {
+      "id": "e",
+      "title": "Huntsman Elite",
+      "brand": "Razer",
+      "price": "199,99$",
+      "img": "https://assets3.razerzone.com/Zx7jpMxMrpLeTPw9fPTScBrKu10=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh4c%2Fh05%2F9011294306334%2FRazer-Huntsman-Elite-gallery-hero.jpg"
+    }
+  ]
+}

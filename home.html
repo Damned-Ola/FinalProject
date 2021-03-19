@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Main Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<link rel="stylesheet" href="./css/home.css">
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">CyberShop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link home" href="./home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link shop" href="./shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link profile" href="./profile.html">My profile</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+</header>
+<body>
+	<div class="container">
+		<div class="langWrap">
+			<a href="#" language='english' class="active">EN</a>
+			<a href="#" language='русский'>РУС</a>
+		</div>
+
+		<div class="content">
+			<h2 class="title">CyberShop</h2>
+			<p class="description">Welcome to the page of the online store 'CyberShop'. Here you will find the best accessories for your PC and laptop. If you are a gamer, then this store is for you!</p>
+		</div>
+        <button class="btn btn-dark" onclick="goToShop()">Go to Shop</button>
+	</div>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://images.spot.im/v1/production/bysbb8lpaebcow51qsxp" class="d-block w-100" alt="Picture 1">
+          </div>
+          <div class="carousel-item">
+            <img src="https://static.razer.ru/232868/razer-naga-x-category-desktop.jpg" class="d-block w-100" alt="Picture 2">
+          </div>
+          <div class="carousel-item">
+            <img src="https://media.kingston.com/hyperx/key-features/hx-keyfeatures-audio-headset-cloud-2-wireless-2-lg.jpg" class="d-block w-100" alt="Picture 3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+	<script>
+		const langEl = document.querySelector('.langWrap');
+		const link = document.querySelectorAll('a');
+		const titleEl = document.querySelector('.title');
+		const descrEl = document.querySelector('.description');
+        const btnEl = document.querySelector('.btn-dark');
+        const homeEl = document.querySelector('.home');
+		const shopEl = document.querySelector('.shop');
+        const profileEl = document.querySelector('.profile');
+
+		link.forEach(el => {
+            if (!(el.classList.contains("nav-link"))){
+                el.addEventListener('click', () => {
+				langEl.querySelector('.active').classList.remove('active');
+				el.classList.add('active');
+
+				const attr = el.getAttribute('language');
+
+				titleEl.textContent = data[attr].title;
+				descrEl.textContent = data[attr].description;
+                btnEl.textContent = data[attr].btn;
+                homeEl.textContent = data[attr].home;
+				shopEl.textContent = data[attr].shop;
+                profileEl.textContent = data[attr].profile;
+			});
+            }
+		});
+		function goToShop(){
+      window.location.replace('./shop.html');
+    }
+		var data = {
+			  "english": 
+			  {
+			    "title": "CyberShop",
+			    "description": 
+				    "Welcome to the page of the online store 'CyberShop'. Here you will find the best accessories for your PC and laptop. If you are a gamer, then this store is for you!",
+                "btn":"Go to Shop",
+                "home":"Home",
+                "shop":"Shop",
+                "profile":"My profile"
+			  },
+			  "русский": 
+			  {
+			    "title": "CyberShop",
+			    "description": 
+				    "Добро подаловать на страницу интернет магазина 'CyberShop'. Здесь вы найдете самые лушие аксессуары для своего ПК и ноутбука. Если вы геймер, то этот магазин именно для вас!",
+                "btn":"Пройти в Магазин",
+                "home":"Главная",
+                "shop":"Магазин",
+                "profile":"Мой профиль"
+			  }
+			}
+	</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>   
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="./vendor/font-awesome-4.7/css/font-awesome.css" rel="stylesheet"> 
+    <link href="./vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet"> 
+    <link href="./css/shop.css" rel="stylesheet"> 
+  </head>
+  <body>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">CyberShop</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="./home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./shop.html">Shop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./profile.html">My profile</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<main>
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="title">CyberShop</h1>
+        <form class="search d-flex">
+          <input type="text" name="term" class="form-control rounded" placeholder="Search for items" aria-label="Search"
+          aria-describedby="search-addon" />
+          <button type="submit" class="btn btn-primary">
+            <i class="fa fa-search"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+      <h1 class="title">Headphones</h1>
+      <div class="headphones row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <h1 class="title">Keyboards</h1>
+    <div class="keyboards row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+    </div>
+  </div>
+</div>
+
+</main>
+<script src="./js/shop.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>   
+  </body>
+</html>

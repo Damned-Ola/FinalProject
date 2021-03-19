@@ -1,0 +1,11 @@
+body{
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #333;
+    color: aliceblue;
+  }
+
+  .card-text{
+      color: #333;
+  }
